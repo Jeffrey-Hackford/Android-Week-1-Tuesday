@@ -1,6 +1,6 @@
 package com.example.guest.boggle;
 
-
+import android.widget.TextView;
 import android.support.test.rule.ActivityTestRule;
 
 import org.junit.Rule;
