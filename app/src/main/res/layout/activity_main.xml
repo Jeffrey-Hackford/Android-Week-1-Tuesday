@@ -17,7 +17,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Let&apos;s Play &quot;Boggle!&quot;"
+        android:text="Play Boggle!"
         android:id="@+id/welcomeText"
         android:textSize="40sp"
         android:layout_alignParentTop="true"
