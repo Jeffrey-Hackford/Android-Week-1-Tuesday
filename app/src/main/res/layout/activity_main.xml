@@ -31,7 +31,35 @@
         android:id="@+id/boggleLetters"
         android:layout_below="@+id/welcomeText"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp" />
+        android:layout_marginTop="60dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here are all your words:"
+        android:id="@+id/wordList"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/boggleLetters"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wordInput"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"
+        android:hint="Enter a word" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submitWord"
+        android:layout_below="@+id/wordInput"
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>
