@@ -11,9 +11,27 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:id="@+id/backgroundImage"
-        android:layout_below="@+id/textView"
-        android:layout_toRightOf="@+id/textView"
-        android:layout_toEndOf="@+id/textView"
         android:src="@drawable/iowa"
         android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let&apos;s Play &quot;Boggle!&quot;"
+        android:id="@+id/welcomeText"
+        android:textSize="40sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/boggleLetters"
+        android:layout_below="@+id/welcomeText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp" />
+
+
 </RelativeLayout>
